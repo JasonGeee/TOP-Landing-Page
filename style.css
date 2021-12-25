@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Container css */
+.top-container {
+    background-color: #1f2937;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+li, a { /* removes all styles from bulletpoints and hyperlinks */
+    list-style-type: none;
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+/* ---------------------------- */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 10px solid green; */
+    padding: 10px 10%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links li{
+    display: inline-block;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0px 20px; /* helps add spacing to the link texts */
+}
+/* ---------------------------- */
+
+/* Front page css */
+.front {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    /* border: 2px solid red; */
+}
+
+.title-description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    /* border: 2px solid red; */
+}
+
+.front-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px;
+    padding: 0px 50px;
+    gap: 8px;
+    /* border: 2px solid red; */
+}
+
+.img-meme {
+    padding-right: 50px;
+    width: 700px;
+    height: 350px;
+}
+
+.sign-up-button {
+    /* text-decoration: none; */
+    background-color: #3882f6;
+    color: white;
+    font-weight:bold;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 5px;
+    width: 120px;
+}
+/* ---------------------------- */
+
+/* Information Containter */
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 20px 20px;
+    /* border: 2px solid blue; */
+}
+
+.info-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    /* border: 2px solid red; */
+}
+
+.info-boxes {
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.box {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.info-text {
+    width: 150px;
+    /* color: #e5e7eb; */
+}
+/* ---------------------------- */
+
+/* Quote Container */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e7eb;
+    padding: 150px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+} 
+.thor {
+    margin-left: 55em;
+}
+/* ---------------------------- */
+
+/* Sign up container */
+.signup-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 35px 150px;
+    /* border: 2px solid red; */
+}
+
+.call-to-action {
+    
+}
+
+/* .last-container {
+    border: 10px solid red;
+} */
+
+.call-action-text {
+    font-weight: bold;
+    color: white;
+}
+
+.after-action-text {
+    color: white;
+}
+
+.lastsignup-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+
+.last-button {
+    display: flex;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+/* Footer container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 40px;
+}
